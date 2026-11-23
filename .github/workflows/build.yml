@@ -33,12 +33,12 @@ jobs:
           gradle-version: "8.9"
 
       - name: Build APK
-        run: gradle assembleDebug
+        run: gradle -p TVWidgetLab-AI-GitHub-Patch assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: TVWidgetLab-debug
-          path: app/build/outputs/apk/debug/app-debug.apk
+          path: TVWidgetLab-AI-GitHub-Patch/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
           
