@@ -19,7 +19,7 @@ jobs:
 
       - name: Extract TV Widget Lab project
         run: |
-          unzip -o TVWidgetLab-AI-GitHub-Patch.zip -d .
+          unzip -o TVWidgetLab-AI-GitHub-performance-Revision.zip -d .
 
       - name: Set up Java
         uses: actions/setup-java@v4
