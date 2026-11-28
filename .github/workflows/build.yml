@@ -19,7 +19,7 @@ jobs:
 
       - name: Extract TV Widget Lab project
         run: |
-          unzip -o TVWidgetLab-Home-Command-Centre-Update.zip-d .
+          unzip -o TVWidgetLab-Home-Command-Centre-Update.zip -d .
 
       - name: Set up Java
         uses: actions/setup-java@v4
